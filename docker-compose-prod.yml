@@ -7,7 +7,7 @@ services:
       context: ./services/users
       dockerfile: Dockerfile-prod
     expose:
-      - 5000
+      - 5001
     environment:
       # - FLASK_APP=project/__init__.py
       - FLASK_ENV=production
